@@ -36,9 +36,9 @@
 
 
 
-  <body style="background:#BCBBB8">
+  <body style="background:hwb(127 80% 7%)">
   <!--=======================navbar=====================================================-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Crop Recommendation System Using Machine Learning</a>
   </div>
@@ -98,7 +98,7 @@
       </form>
 
        {% if result %}
-		<div class="card bg-dark" style="width: 18rem;">
+		<div class="card bg-dark " style="width: 22rem;">
 		  <img src="{{url_for('static', filename='crop2.jfif')}}" style="width: 90px; height: 110px;" class="card-img-top" alt="...">
 		  <div class="card-body">
 			<h5 class="card-title">Recommend Crop for Cultivation is:</h5>
